@@ -42,14 +42,14 @@ img{
     width: 100%;
 }
 
-.site{
+.showcase{
     width: 100%;
     height: 100vh;
     position: relative;
     background: url("1.jpg") no-repeat center center/cover;
 }
 
-.site::after{
+.showcase::after{
     content: "";
     position: absolute;
     top: 0;
@@ -61,13 +61,13 @@ img{
     box-shadow: 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
 }
 
-.site-top{
+.showcase-top{
     position: relative;
     z-index: 2;
     height: 90px;
 }
 
-.site-top img{
+.showcase-top img{
     width: 140px;
     position: absolute;
     top: 50%;
@@ -75,14 +75,14 @@ img{
     transform: translate(40% , -50%);
 }
 
-.site-top a{
+.showcase-top a{
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(-60% , -50%);
 }
 
-.site-content{
+.showcase-content{
     position: relative;
     margin: 0 26%;
     z-index: 2;
@@ -94,7 +94,7 @@ img{
     margin-top: 9rem;
 }
 
-.site-content h1{
+.showcase-content h1{
     font-weight: 700;
     font-size: 64px;
     margin: 0 30px;
@@ -102,20 +102,20 @@ img{
     line-height: 74.5px;
 }
 
-.site-content h3{
+.showcase-content h3{
     color: white;
     font-size: 25px;
     margin: 16px 0;
 }
 
-.site-content p{
+.showcase-content p{
     font-size: 19.2px;
     font-weight: 300;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
 
-.site-content input{
+.showcase-content input{
     position: absolute;
     left: 0;
     bottom: -8vh;
@@ -148,7 +148,7 @@ img{
     border-radius: 5px;
 }
 
-.site-content .btn-lg{
+.showcase-content .btn-lg{
     position: absolute;
     right: 0;
     bottom: -8vh;
@@ -343,3 +343,4 @@ img{
 .footer li{
     line-height: 2.4;
 }
+
